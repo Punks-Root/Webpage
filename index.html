@@ -54,5 +54,13 @@
     <script src="js/copiarIp.js"></script>
     <script src="js/navbar.js"></script>    
     <script src="js/particles.js"></script>
+
+    // Selecciona el enlace de "Inicio"
+const homeLink = document.getElementById("home-link");
+
+// Oculta el enlace "Inicio" si estamos en la página principal
+if (window.location.pathname.endsWith("index.html") || window.location.pathname === "/") {
+    homeLink.style.display = "none";
+}
 </body>
 </html>
