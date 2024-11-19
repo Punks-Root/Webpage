@@ -119,8 +119,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-/* Partículas de fondo */
+/* Fondo partículas */
 #particles-js {
     position: absolute;
     width: 100%;
@@ -128,8 +127,8 @@ footer {
     top: 0;
     left: 0;
     z-index: -1; /* Coloca el fondo detrás de tu contenido */
+    background-color: #2c2f36; /* Fondo oscuro para partículas */
 }
-
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 768px) {
     .navbar ul {
