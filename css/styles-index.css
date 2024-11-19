@@ -1,3 +1,6 @@
+body.home #home-link {
+    display: none;
+}
 /* Barra lateral centrada a la derecha */
 .right-sidebar {
     width: 300px;
